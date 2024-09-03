@@ -17,7 +17,9 @@ const header = () => {
                     Enhance Your User Interface with High-Quality,<br /> Easy-to-Use React Icons.
                 </h2>
             </div>
-            <Searchbox />
+            <div className="mt-5">
+                <Searchbox />
+            </div>
         </div>
     )
 }

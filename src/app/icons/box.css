@@ -33,7 +33,7 @@
 }
 
 .filter {
-    border: 1px solid rgba(99, 99, 99, 0.2);
+    /* border: 1px solid rgba(99, 99, 99, 0.2); */
     margin: 3rem 0rem;
     width: 20%;
     overflow-y: 'scroll';

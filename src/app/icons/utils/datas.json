@@ -67,7 +67,7 @@
     },
     {
         "id": 12,
-        "name":"Backspace",
+        "name":"zackspace",
         "profileimages": "/icons/general/Backspace.png",
         "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
     }
