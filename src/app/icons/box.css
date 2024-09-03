@@ -1,20 +1,20 @@
 .main-conatiner {
     border-left: 1px solid rgb(224, 228, 221);
-    margin: 3rem 0rem;
-    padding: 0rem 4rem;
+    margin: 2rem 0rem;
+    padding: 0rem 2.5rem;
     height: 100%;
-    width: 80%;
+    width: 100%;
+    margin-left: 20rem;
 }
 
 .icon-box {
-    border: 1px solid rgba(0, 0, 0, 0.05);
-    width: 100%;
+    border: 0px solid rgba(0, 0, 0, 0.05);
+    width: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* padding: 3.2rem 0rem; */
     border-radius: 0.7rem;
-    height: 8rem;
+    height: 7.5rem;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
 }
 
@@ -33,12 +33,12 @@
 }
 
 .filter {
-    /* border: 1px solid rgba(99, 99, 99, 0.2); */
-    margin: 3rem 0rem;
-    width: 20%;
-    overflow-y: 'scroll';
-    /* border-radius: 0.5rem; */
+    margin: 5rem 0rem;
+    /* width: 22%; */
+    position: fixed;
+    top:1rem;
     /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+    /* padding: 1rem; */
 }
 
 .large-model {
@@ -46,3 +46,27 @@
     margin: 0 3rem;
     gap: 1rem;
 }
+
+@media screen and (max-width: 480px) {
+    .filter{
+        display: none;
+    }
+    .main-conatiner {
+        /* padding: 0rem 2.5rem; */
+        margin-left: 0rem;
+        border-left: none;
+        padding: 0 1.5rem;
+    }
+    .large-model {
+        margin: 0rem;
+        width: 100%;
+        margin: 0rem 0rem;
+    }
+    .grid-box {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .icon-box {
+        
+        width: 100%;
+    }
+  }

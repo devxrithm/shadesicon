@@ -12,7 +12,7 @@ const navbar = () => {
                 />
                 <span>ShadesIcon</span>
             </div>
-            <ul className='flex gap-5'>
+            <ul className='flex gap-5 max-sm:hidden'>
                 <li>Home</li>
                 <li>Icons</li>
                 <li>Animated Icons</li>

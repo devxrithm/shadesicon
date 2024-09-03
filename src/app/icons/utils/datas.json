@@ -1,74 +1,184 @@
 [
     {
         "id": 1,
+        "slug":"attachment",
         "name":"Attachment",
         "profileimages": "/icons/general/Attachment.png",
         "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
     },
     {
         "id": 2,
+        "slug":"backspace",
         "name":"Backspace",
         "profileimages": "/icons/general/Backspace.png",
         "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
     },
     {
         "id": 3,
+        "slug":"binoculars",
         "name":"Binoculars",
         "profileimages": "/icons/general/Binoculars.png",
         "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
     },
     {
         "id": 4,
-        "name":"Backspace",
-        "profileimages": "/icons/general/Backspace.png",
+        "name":"Bookmark",
+        "slug":"bookmark",
+        "profileimages": "/icons/general/Bookmark.png",
         "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
     },
     {
         "id": 5,
-        "name":"Backspace",
-        "profileimages": "/icons/general/Backspace.png",
+        "name":"Compose",
+        "slug":"compose",
+        "profileimages": "/icons/general/Compose.png",
         "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
     },
     {
         "id": 6,
-        "name":"Backspace",
-        "profileimages": "/icons/general/Backspace.png",
+        "name":"Crosshair",
+        "slug":"crosshair",
+        "profileimages": "/icons/general/Crosshair.png",
         "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
     },
     {
         "id": 7,
-        "name":"Backspace",
-        "profileimages": "/icons/general/Backspace.png",
+        "name":"Crown",
+        "slug":"crown",
+        "profileimages": "/icons/general/Crown.png",
         "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
     },
     {
         "id": 8,
-        "name":"Backspace",
-        "profileimages": "/icons/general/Backspace.png",
+        "name":"Cursor",
+        "slug":"cursor",
+        "profileimages": "/icons/general/Cursor.png",
         "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
     },
     {
         "id": 9,
-        "name":"Backspace",
-        "profileimages": "/icons/general/Backspace.png",
+        "name":"Dislike",
+        "slug":"dislike",
+        "profileimages": "/icons/general/Dislike.png",
         "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
     },
     {
         "id": 10,
-        "name":"Backspace",
-        "profileimages": "/icons/general/Backspace.png",
+        "name":"Emoji",
+        "slug":"emoji",
+        "profileimages": "/icons/general/Emoji.png",
         "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
     },
     {
         "id": 11,
-        "name":"Backspace",
-        "profileimages": "/icons/general/Backspace.png",
+        "name":"Flag-Alt",
+        "slug":"flag-alt",
+        "profileimages": "/icons/general/Flag-Alt.png",
         "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
     },
     {
         "id": 12,
-        "name":"zackspace",
-        "profileimages": "/icons/general/Backspace.png",
+        "name":"Flag",
+        "slug":"flag",
+        "profileimages": "/icons/general/Flag.png",
+        "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
+    },
+    {
+        "id": 13,
+        "name":"Flash",
+        "slug":"flash",
+        "profileimages": "/icons/general/Flash.png",
+        "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
+    },
+    {
+        "id": 14,
+        "name":"Guard",
+        "slug":"guard",
+        "profileimages": "/icons/general/Guard.png",
+        "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
+    },
+    {
+        "id": 15,
+        "name":"Half Star",
+        "slug":"half-star",
+        "profileimages": "/icons/general/HalfStar.png",
+        "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
+    },
+    {
+        "id": 16,
+        "name":"Heart",
+        "slug":"heart",
+        "profileimages": "/icons/general/Heart.png",
+        "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
+    },
+    {
+        "id": 17,
+        "name":"Key",
+        "slug":"key",
+        "profileimages": "/icons/general/Key.png",
+        "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
+    },
+    {
+        "id": 18,
+        "name":"Like",
+        "slug":"like",
+        "profileimages": "/icons/general/Like.png",
+        "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
+    },
+    {
+        "id": 19,
+        "name":"Link",
+        "slug":"link",
+        "profileimages": "/icons/general/Link.png",
+        "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
+    },
+    {
+        "id": 20,
+        "name":"Lock",
+        "slug":"lock",
+        "profileimages": "/icons/general/Lock.png",
+        "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
+    },
+    {
+        "id": 21,
+        "name":"Loupe",
+        "slug":"loupe",
+        "profileimages": "/icons/general/Loupe.png",
+        "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
+    },
+    {
+        "id": 22,
+        "name":"More-Alt",
+        "slug":"more-alt",
+        "profileimages": "/icons/general/More-Alt.png",
+        "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
+    },
+    {
+        "id": 23,
+        "name":"More",
+        "slug":"more",
+        "profileimages": "/icons/general/More.png",
+        "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
+    },
+    {
+        "id": 24,
+        "name":"Move",
+        "slug":"move",
+        "profileimages": "/icons/general/Move.png",
+        "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
+    },
+    {
+        "id": 25,
+        "name":"Pencil",
+        "slug":"pencil",
+        "profileimages": "/icons/general/Pencil.png",
+        "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
+    },
+    {
+        "id": 26,
+        "name":"Settings",
+        "slug":"settings",
+        "profileimages": "/icons/general/Settings.png",
         "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
     }
 ]
