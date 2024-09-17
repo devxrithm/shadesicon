@@ -4,7 +4,7 @@
         "slug":"attachment",
         "name":"Attachment",
         "profileimages": "/icons/general/Attachment.png",
-        "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
+        "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n\n <ShadesIcon widht=35 height=35 />"
     },
     {
         "id": 2,

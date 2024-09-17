@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from "next/image";
+import Link from 'next/link';
 const navbar = () => {
     return (
         <nav className="flex gap-5 items-center	mt-5 justify-around">
@@ -13,13 +14,13 @@ const navbar = () => {
                 <span>ShadesIcon</span>
             </div>
             <ul className='flex gap-5 max-sm:hidden'>
-                <li>Home</li>
-                <li>Icons</li>
+                <Link href="/">  <li>Home</li></Link>
+                <Link href="/outline"> <li>Icons</li></Link>
                 <li>Animated Icons</li>
                 <li>Contact</li>
                 <li>Blog</li>
             </ul>
-            <button className='border-2 border-black px-5	'>Start</button>
+            <button className='border-2 border-black px-5'>Start</button>
         </nav>
     )
 }
