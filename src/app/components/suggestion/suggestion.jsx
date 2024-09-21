@@ -1,0 +1,46 @@
+"use client"
+// import { useState} from 'react'
+import data from "../../outline/utils/datas.json";
+import Image from 'next/image';
+import Link from 'next/link'
+// import Searchbox from '../components/searchBox/searchbox';
+// import Filter from "../components/filter/page"
+
+
+
+
+const suggestion = () => {
+  return (
+    <>
+
+      <div className="h-full mt-10 ">
+
+        <hr className='mt-[1rem] mx-3' />
+        
+<h1 className="ml-16 mt-5 text-lg text-gray-700">Explore More Icon From ShadesIcons</h1>
+
+        <div className="grid-box mx-[3rem] my-5 grid grid-cols-[repeat(8,1fr)] gap-4">
+          {data.map((res, index) => (
+            <Link href={`/outline/${res.slug}`}>
+              <div key={index} className="flex flex-col justify-center items-center">
+                <div className="w-[85%] flex items-center justify-center h-[7.5rem] shadow-[rgba(0,0,0,0.05)_0px_0px_0px_1px] rounded-md" >
+                  <Image
+                    src={res.profileimages}
+                    width={24}
+                    height={24}
+                    alt="icons"
+                  />
+                </div>
+                <p className='mt-2 text-sm'>{res.name}</p>
+              </div>
+            </Link>
+          ))}
+        </div>
+
+      </div>
+      
+    </>
+  )
+}
+
+export default suggestion

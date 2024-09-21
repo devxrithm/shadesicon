@@ -1,13 +1,18 @@
 "use client"
-import { useState } from 'react'
+import { useState} from 'react'
 import data from "./utils/datas.json";
 import Image from 'next/image';
 import Link from 'next/link'
 import Searchbox from '../components/searchBox/searchbox';
+import Filter from "../components/filter/page"
+
+
+
 
 const page = () => {
 
   const [search, setSearch] = useState('');
+  
   return (
     <>
 
@@ -21,25 +26,25 @@ const page = () => {
 
         <hr className='mt-[1rem]' />
 
-        <div className="flex gap-3 mx-[5.5rem] mt-5">
-          <div className="border px-10 py-1 text-sm rounded-2xl text-gray-500  font-medium  flex items-center">
-            <span className='text-orange-500 text-2xl '>✾</span> &nbsp; OUTLINE
+        <div className="flex gap-3 mx-[5.5rem] mt-5 justify-between items-center">
+          <div className='flex gap-3'>
+            <Filter
+              logo="✾"
+              primaryname="OUTLINE"
+              style="text-xl text-orange-500"
+            />
+            <Filter
+              logo="♜"
+              primaryname="MINI"
+              style="text-xl text-green-500"
+            />
+            <Filter
+              logo="♕"
+              primaryname="GRADIENT"
+              style="text-xl text-pink-600"
+            />
           </div>
-          <div className="border px-10 py-1 rounded-2xl text-sm text-gray-500 font-medium flex items-center	">
-            <span className='text-green-500 text-2xl'>♜</span> &nbsp; MINI
-          </div>
-          <div className="border px-10 py-1 rounded-2xl text-sm text-gray-500 font-medium flex items-center">
-            <span className='text-pink-600 text-2xl'>♕</span> &nbsp;  GRADIENT
-          </div>
-          <div className="border px-10 py-1 rounded-2xl text-sm text-gray-500 font-medium flex items-center">
-            <span className='text-teal-400  text-2xl'>♚</span> &nbsp;  LOGO
-          </div>
-          <div className="border px-10 py-1 rounded-2xl text-sm text-gray-500 font-medium flex items-center">
-            <span className='text-red-500 text-2xl'>♣</span> &nbsp;  FLAG
-          </div>
-          <div className="border px-10 py-1 rounded-2xl text-sm text-gray-500 font-medium flex items-center">
-            <span className='text-rose-600 text-2xl'>♔</span> &nbsp;  ANIMATED
-          </div>
+          <p className='text-gray-500'>Size 24X24</p>
         </div>
 
 
@@ -47,24 +52,24 @@ const page = () => {
           {data.filter((res) => {
             return search.toLowerCase() === '' ? res : res.name.toLowerCase().includes(search.toLowerCase());
           }).map((res, index) => (
-            <Link href={`/icons/${res.slug}`}>
+            <Link href={`/outline/${res.slug}`}>
               <div key={index} className="flex flex-col justify-center items-center">
                 <div className="w-[85%] flex items-center justify-center h-[7.5rem] shadow-[rgba(0,0,0,0.05)_0px_0px_0px_1px] rounded-md" >
                   <Image
                     src={res.profileimages}
-                    width={25}
-                    height={25}
+                    width={24}
+                    height={24}
                     alt="icons"
                   />
                 </div>
-                <p className='mt-2'>{res.name}</p>
+                <p className='mt-2 text-sm'>{res.name}</p>
               </div>
             </Link>
           ))}
         </div>
 
       </div>
-
+      
     </>
   )
 }
