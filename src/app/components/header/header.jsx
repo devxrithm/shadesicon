@@ -7,25 +7,29 @@ const header = () => {
   return (
     <div>
       {/* <Navbar /> */}
-      <div className="mt-[10rem]">
-        <h1 className='text-[6vw] leading-none	 text-center  font-bold text-gray-700'>
-          Supercharge Your UI <br />
-          with React-Ready&nbsp;
-          <span className='text-orange-400'>Icons</span>
-        </h1>
-        <h2 className="text-2xl text-center mt-[2rem] font-semibold  text-gray-600">
-          Enhance Your User Interface with High-Quality,<br /> Easy-to-Use React Icons.
-        </h2>
-      </div>
-      <div className="mt-5">
-        {/* <Searchbox /> */}
+      <div className="bg-[url('/bg.svg')] bg-cover bg-center h-[29rem] lg:h-[30rem] pt-4 bg-purple-50">
 
-        <div className="flex justify-center ">
-          <p className='border w-96 text-center p-2 rounded-md bg-slate-50'>$ npm install shadesicon </p>
+        <div className="pt-[8rem] opacity-100 flex flex-col items-center justify-center text-center ">
+
+
+          <h1 className='text-[5vmax] max-w-[60rem] text-wrap leading-none font-bold drop-shadow-2xl'>
+            Supercharge Your UI With Ready To Use&nbsp;
+            <span className='text-orange-500 drop-shadow-2xl'>Icons</span>
+          </h1>
+
+          <h2 className="text-lg text-wrap mt-[1rem] max-w-[40rem] font-medium text-gray-800 drop-shadow-2xl">
+            Enhance Your User Interface with High-Quality, Easy-to-Use React Icons.
+          </h2>
+
+          <p className='text-base hover:cursor-pointer drop-shadow-xl rounded-md bg-black font-mono text-red-500 font-semibold mt-5 border px-6 py-2'>$ npm install shadesicon </p>
+
         </div>
+
       </div>
+
+      <div className='shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]'><hr className='drop-shadow-2xl shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]' /></div>
       <section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto">
+        <div class="container px-5 py-24">
           <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
             <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Pitchfork Kickstarter Taxidermy</h1>
             <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table.</p>

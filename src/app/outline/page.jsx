@@ -26,35 +26,33 @@ const page = () => {
 
         <hr className='mt-[1rem]' />
 
-        <div className="flex gap-3 mx-[5.5rem] mt-5 justify-between items-center">
+        <div className="flex gap-3 px-3 lg:px-[5rem] py-4 justify-between items-center shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]">
           <div className='flex gap-3'>
             <Filter
-              logo="✾"
               primaryname="OUTLINE"
-              style="text-xl text-orange-500"
+              style="text-sm text-gray-500 border flex items-center px-3 py-2 rounded-lg"
             />
             <Filter
-              logo="♜"
               primaryname="MINI"
-              style="text-xl text-green-500"
+              style="text-sm text-gray-500 border flex items-center px-4 py-2 rounded-lg"
             />
             <Filter
               logo="♕"
               primaryname="GRADIENT"
-              style="text-xl text-pink-600"
+              style="text-sm text-gray-500 border flex items-center px-3 py-2 rounded-lg"
             />
           </div>
-          <p className='text-gray-500'>Size 24X24</p>
+          <p className='text-gray-500 text-sm'>Size 24X24</p>
         </div>
 
 
-        <div className="grid-box mx-[5rem] my-10 grid grid-cols-[repeat(8,1fr)] gap-4 S">
+        <div className="ml-[1rem] lg:ml-[5rem] my-10 flex flex-wrap gap-3 lg:gap-6 min-h-60">
           {data.filter((res) => {
             return search.toLowerCase() === '' ? res : res.name.toLowerCase().includes(search.toLowerCase());
           }).map((res, index) => (
             <Link href={`/outline/${res.slug}`}>
               <div key={index} className="flex flex-col justify-center items-center">
-                <div className="w-[85%] flex items-center justify-center h-[7.5rem] shadow-[rgba(0,0,0,0.05)_0px_0px_0px_1px] rounded-md" >
+                <div className="w-28 flex items-center justify-center h-[7.5rem] shadow-[rgba(0,0,0,0.05)_0px_0px_0px_1px] rounded-md" >
                   <Image
                     src={res.profileimages}
                     width={24}

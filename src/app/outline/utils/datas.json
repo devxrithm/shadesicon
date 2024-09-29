@@ -1,8 +1,8 @@
 [
     {
         "id": 1,
-        "slug":"battery-empty",
-        "name":"Battery-Empty",
+        "slug":"add-circle",
+        "name":"Add-Circle",
         "profileimages": "/icons/essetional/add-circle.svg",
         "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n<ShadesIcon widht=35 height=35 />"
     },
@@ -22,162 +22,330 @@
     },
     {
         "id": 4,
-        "name":"Bookmark",
-        "slug":"bookmark",
+        "name":"Archive",
+        "slug":"archive",
         "profileimages": "/icons/essetional/archive.svg",
         "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
     },
     {
         "id": 5,
-        "name":"Compose",
-        "slug":"compose",
+        "name":"Battery-Charging",
+        "slug":"battery-charging",
         "profileimages": "/icons/essetional/battery-charging.svg",
         "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
     },
     {
         "id": 6,
-        "name":"Crosshair",
-        "slug":"crosshair",
+        "name":"Battery-Disable",
+        "slug":"battery-disable",
         "profileimages": "/icons/essetional/battery-disable.svg",
         "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
     },
     {
         "id": 7,
-        "name":"Crown",
-        "slug":"crown",
+        "name":"Battery-Empty",
+        "slug":"battery-empty",
         "profileimages": "/icons/essetional/battery-empty.svg",
         "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
     },
     {
         "id": 8,
-        "name":"Cursor",
-        "slug":"cursor",
+        "name":"Battery 2",
+        "slug":"battery-2",
         "profileimages": "/icons/essetional/battery2.svg",
         "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
     },
     {
         "id": 9,
-        "name":"Dislike",
-        "slug":"dislike",
+        "name":"Battery 3",
+        "slug":"battery-3",
         "profileimages": "/icons/essetional/battery3.svg",
         "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
     },
     {
         "id": 10,
-        "name":"Emoji",
-        "slug":"emoji",
+        "name":"Battery-Full",
+        "slug":"battery-full",
         "profileimages": "/icons/essetional/battery-full.svg",
         "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
     },
     {
         "id": 11,
-        "name":"Flag-Alt",
-        "slug":"flag-alt",
+        "name":"Cake",
+        "slug":"cake",
         "profileimages": "/icons/essetional/cake.svg",
         "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
     },
     {
         "id": 12,
-        "name":"Flag",
-        "slug":"flag",
+        "name":"CD",
+        "slug":"cd",
         "profileimages": "/icons/essetional/cd.svg",
         "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
     },
     {
         "id": 13,
-        "name":"Flash",
-        "slug":"flash",
+        "name":"Chart",
+        "slug":"chart",
         "profileimages": "/icons/essetional/chart.svg",
         "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
     },
     {
         "id": 14,
-        "name":"Guard",
-        "slug":"guard",
+        "name":"Chrome",
+        "slug":"chrome",
         "profileimages": "/icons/essetional/chrome.svg",
         "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
     },
     {
         "id": 15,
-        "name":"Half Star",
-        "slug":"half-star",
+        "name":"Close-Circle",
+        "slug":"close-circle",
         "profileimages": "/icons/essetional/close-circle.svg",
         "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
     },
     {
         "id": 16,
-        "name":"Heart",
-        "slug":"heart",
+        "name":"Close-Square",
+        "slug":"close-square",
         "profileimages": "/icons/essetional/close-square.svg",
         "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
     },
     {
         "id": 17,
-        "name":"Key",
-        "slug":"key",
+        "name":"Coffee",
+        "slug":"coffee",
         "profileimages": "/icons/essetional/coffee.svg",
         "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
     },
     {
         "id": 18,
-        "name":"Like",
-        "slug":"like",
+        "name":"Calculator",
+        "slug":"calculator",
         "profileimages": "/icons/essetional/calculator.svg",
         "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
     },
     {
         "id": 19,
-        "name":"Link",
-        "slug":"link",
+        "name":"Crown",
+        "slug":"crown",
         "profileimages": "/icons/essetional/crown.svg",
         "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
     },
     {
         "id": 20,
-        "name":"Lock",
-        "slug":"lock",
+        "name":"Danger",
+        "slug":"danger",
         "profileimages": "/icons/essetional/danger.svg",
         "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
     },
     {
         "id": 21,
-        "name":"Loupe",
-        "slug":"loupe",
+        "name":"Emoji-Normal",
+        "slug":"emoji-normal",
         "profileimages": "/icons/essetional/emoji-normal.svg",
         "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
     },
     {
         "id": 22,
-        "name":"More-Alt",
-        "slug":"more-alt",
+        "name":"Emoji-Sad",
+        "slug":"emoji-sad",
         "profileimages": "/icons/essetional/emoji-sad.svg",
         "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
     },
     {
         "id": 23,
-        "name":"More",
-        "slug":"more",
+        "name":"Flash-Circle",
+        "slug":"flash-circle",
         "profileimages": "/icons/essetional/flash-circle.svg",
         "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
     },
     {
         "id": 24,
-        "name":"Move",
-        "slug":"move",
+        "name":"Flash-Slash",
+        "slug":"flash-slash",
         "profileimages": "/icons/essetional/flash-slash.svg",
         "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
     },
     {
         "id": 25,
-        "name":"Pencil",
-        "slug":"pencil",
+        "name":"Grammerly",
+        "slug":"grammerly",
         "profileimages": "/icons/essetional/grammerly.svg",
         "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
     },
     {
         "id": 26,
-        "name":"Settings",
-        "slug":"settings",
+        "name":"Happyemoji",
+        "slug":"happyemoji",
+        "profileimages": "/icons/essetional/happyemoji.svg",
+        "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
+    },
+    {
+        "id": 27,
+        "name":"Home 2",
+        "slug":"home-2",
+        "profileimages": "/icons/essetional/home-2.svg",
+        "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
+    },
+    {
+        "id": 28,
+        "name":"Home",
+        "slug":"home",
+        "profileimages": "/icons/essetional/home.svg",
+        "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
+    },
+    {
+        "id": 29,
+        "name":"Information",
+        "slug":"information",
+        "profileimages": "/icons/essetional/information.svg",
+        "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
+    },
+    {
+        "id": 30,
+        "name":"Happyemoji",
+        "slug":"happyemoji",
+        "profileimages": "/icons/essetional/happyemoji.svg",
+        "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
+    },
+    {
+        "id": 31,
+        "name":"Happyemoji",
+        "slug":"happyemoji",
+        "profileimages": "/icons/essetional/happyemoji.svg",
+        "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
+    },
+    {
+        "id": 32,
+        "name":"Happyemoji",
+        "slug":"happyemoji",
+        "profileimages": "/icons/essetional/happyemoji.svg",
+        "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
+    },
+    {
+        "id": 33,
+        "name":"Happyemoji",
+        "slug":"happyemoji",
+        "profileimages": "/icons/essetional/happyemoji.svg",
+        "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
+    },
+    {
+        "id": 26,
+        "name":"Happyemoji",
+        "slug":"happyemoji",
+        "profileimages": "/icons/essetional/happyemoji.svg",
+        "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
+    },
+    {
+        "id": 26,
+        "name":"Happyemoji",
+        "slug":"happyemoji",
+        "profileimages": "/icons/essetional/happyemoji.svg",
+        "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
+    },
+    {
+        "id": 26,
+        "name":"Happyemoji",
+        "slug":"happyemoji",
+        "profileimages": "/icons/essetional/happyemoji.svg",
+        "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
+    },
+    {
+        "id": 26,
+        "name":"Happyemoji",
+        "slug":"happyemoji",
+        "profileimages": "/icons/essetional/happyemoji.svg",
+        "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
+    },
+    {
+        "id": 26,
+        "name":"Happyemoji",
+        "slug":"happyemoji",
+        "profileimages": "/icons/essetional/happyemoji.svg",
+        "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
+    },
+    {
+        "id": 26,
+        "name":"Happyemoji",
+        "slug":"happyemoji",
+        "profileimages": "/icons/essetional/happyemoji.svg",
+        "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
+    },
+    {
+        "id": 26,
+        "name":"Happyemoji",
+        "slug":"happyemoji",
+        "profileimages": "/icons/essetional/happyemoji.svg",
+        "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
+    },
+    {
+        "id": 26,
+        "name":"Happyemoji",
+        "slug":"happyemoji",
+        "profileimages": "/icons/essetional/happyemoji.svg",
+        "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
+    },
+    {
+        "id": 26,
+        "name":"Happyemoji",
+        "slug":"happyemoji",
+        "profileimages": "/icons/essetional/happyemoji.svg",
+        "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
+    },
+    {
+        "id": 26,
+        "name":"Happyemoji",
+        "slug":"happyemoji",
+        "profileimages": "/icons/essetional/happyemoji.svg",
+        "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
+    },
+    {
+        "id": 26,
+        "name":"Happyemoji",
+        "slug":"happyemoji",
+        "profileimages": "/icons/essetional/happyemoji.svg",
+        "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
+    },
+    {
+        "id": 26,
+        "name":"Happyemoji",
+        "slug":"happyemoji",
+        "profileimages": "/icons/essetional/happyemoji.svg",
+        "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
+    },
+    {
+        "id": 26,
+        "name":"Happyemoji",
+        "slug":"happyemoji",
+        "profileimages": "/icons/essetional/happyemoji.svg",
+        "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
+    },
+    {
+        "id": 26,
+        "name":"Happyemoji",
+        "slug":"happyemoji",
+        "profileimages": "/icons/essetional/happyemoji.svg",
+        "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
+    },
+    {
+        "id": 26,
+        "name":"Happyemoji",
+        "slug":"happyemoji",
+        "profileimages": "/icons/essetional/happyemoji.svg",
+        "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
+    },
+    {
+        "id": 26,
+        "name":"Happyemoji",
+        "slug":"happyemoji",
+        "profileimages": "/icons/essetional/happyemoji.svg",
+        "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
+    },
+    {
+        "id": 26,
+        "name":"Happyemoji",
+        "slug":"happyemoji",
         "profileimages": "/icons/essetional/happyemoji.svg",
         "syntax": "import SyntaxHighlighter from 'react-syntax-highlighter';\n <ShadesIcon widht=35 height=35 />"
     }

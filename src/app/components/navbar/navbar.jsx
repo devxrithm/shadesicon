@@ -3,6 +3,8 @@ import Image from "next/image";
 import Link from 'next/link';
 const navbar = () => {
     return (
+        <>
+        
         <nav className="flex gap-5 items-center	mt-5 justify-around">
             <div className='flex gap-5 justify-start items-center'>
                 <Image
@@ -21,7 +23,10 @@ const navbar = () => {
                 <li>Blog</li>
             </ul>
             <button className='border-2 border-black px-5'>Start</button>
+            
         </nav>
+        <hr className='mt-5 mx-5'/>
+        </>
     )
 }
 
