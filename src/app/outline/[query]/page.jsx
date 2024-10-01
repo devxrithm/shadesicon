@@ -18,7 +18,7 @@ const page = ({ params }) => {
       return currEle
     }
   })
-  
+
   const downloadRemoteImage = async () => {
     const response = await fetch(`/icons/essetional/${fileData.slug}.svg`); // Remote image URL
     const blob = await response.blob();
@@ -44,9 +44,10 @@ const page = ({ params }) => {
   return (
     <>
 
-      <div className="shadow-[rgba(99,99,99,0.2)_0px_2px_8px_0px] bg-white flex items-center justify-center mt-[3rem] border mx-64 p-10 rounded-lg gap-12">
-        <div className='w-80'>
-          <div className='border rounded-lg flex justify-center p-11'>
+      <div className="shadow-[rgba(99,99,99,0.2)_0px_2px_8px_0px] bg-white lg:flex items-center justify-center mt-[3rem] border lg:mx-80 flex-col lg:flex-row
+       lg:p-10 p-5 rounded-lg gap-10 mx-5 ">
+        <div className='lg:w-60 mx-5'>
+          <div className='border rounded-lg flex justify-center p-11 h-52 lg:h-40'>
             <Image
               src={fileData.profileimages}
               width={60}
@@ -58,27 +59,39 @@ const page = ({ params }) => {
         </div>
 
         <div className="p-0">
-          <h1 className='text-lg font-bold'>{fileData.name} Free Icon</h1>
+          <h1 className='text-lg font-bold hidden lg:block'>{fileData.name} Free Icon</h1>
 
-          <SyntaxHighlighter language="html" style={vs2015} className="rounded-md mt-3 w-[100%]">
+          {/* <SyntaxHighlighter language="html" style={vs2015} className="rounded-md mt-3 w-[100%]">
             {fileData.syntax}
-          </SyntaxHighlighter>
+          </SyntaxHighlighter> */}
 
 
-          <div className='flex flex-wrap gap-3 mb-2 mt-3'>
-            <div className='border border-black shadow-[rgba(99,99,99,0.2)_0px_2px_8px_0px] text-black font-semibold px-20 py-2 rounded-md'><p>Copy SVG</p></div>
+          <div className='flex flex-col gap-3 mb-2 mt-3 items-center justify-center'>
+            <div className='border border-black shadow-[rgba(99,99,99,0.2)_0px_2px_8px_0px] text-black font-bold  py-3 lg:w-[23rem] lg:px-16 w-72 rounded-md text-center cursor-pointer hover:scale-95 bg-slate-100'>
+              <p>Copy JSX</p>
+            </div>
 
-            <button onClick={downloadRemoteImage}>
-              <div className= 'border-5 shadow-[rgba(99,99,99,0.2)_0px_2px_8px_0px] bg-[#000000] text-white font-semibold px-16 py-3 rounded-md hover:scale-95'><p>Download SVG</p></div>
-            </button>
+            <div className="flex gap-4">
+              <div className='border border-black shadow-[rgba(99,99,99,0.2)_0px_2px_8px_0px] text-black font-bold lg:w-44 w-32 py-3 rounded-md text-center hover:scale-95'>
+                <p>Copy SVG</p>
+              </div>
+
+              <button onClick={downloadRemoteImage}>
+                <div className='border-5 shadow-[rgba(99,99,99,0.2)_0px_2px_8px_0px] bg-[#000000] text-white font-semibold lg:w-44 w-36 py-3 rounded-md hover:scale-95'><p>Download SVG</p></div>
+              </button>
+            </div>
 
           </div>
           <hr className='mt-3' />
-          <p className='text-gray-600 text-sm mt-2'>Explore more icon from ShadesIcon ↗</p>
 
-          <hr className='mt-4' />
-          <div className='mt-3 mb-3'>
-            <div className="flex gap-5">
+          {/* <p className='text-gray-600 text-sm mt-2'>Explore more icon from ShadesIcon ↗</p> */}
+
+          {/* <hr className='mt-4' /> */}
+
+
+          {/* <hr /> */}
+          <div className='mt-3 '>
+            <div className="flex items-center justify-between gap-3">
               <Image
                 src="https://www.aceternity.com/_next/image?url=%2Flogo.png&w=128&q=75"
                 alt="Picture of the author"
@@ -87,17 +100,15 @@ const page = ({ params }) => {
               />
               <div className='text-gray-700 font-semibold'>
                 <h2>ShadesIcon</h2>
-                <p className='text-sm'>Explore 1000 + Icons For Free</p>
+                <p className='text-sm text-wrap '>Explore 1000 + Icons For Free</p>
               </div>
-              <div className='border px-6 py-3 rounded-lg ml-16'>
-                <Link href="#">
+              <Link href="#">
+                <div className='border border-black rounded-lg w-20 text-center py-2'>
                   Follow ↗
-                </Link>
-              </div>
+                </div>
+              </Link>
             </div>
           </div>
-          <hr />
-
 
         </div>
       </div>

@@ -16,14 +16,14 @@ const suggestion = () => {
       <div className="h-full mt-10 ">
 
         <hr className='mt-[1rem] mx-3' />
-        
-<h1 className="ml-16 mt-5 text-lg text-gray-700">Explore More Icon From ShadesIcons</h1>
 
-        <div className="grid-box mx-[3rem] my-5 grid grid-cols-[repeat(8,1fr)] gap-4">
+        <h1 className="lg:ml-16 ml-5 mt-5 text-lg text-gray-700">Explore More Icon From ShadesIcons</h1>
+
+        <div className="lg:mx-4 my-10 flex flex-wrap gap-3 lg:gap-6 min-h-60 items-center justify-center">
           {data.map((res, index) => (
             <Link href={`/outline/${res.slug}`}>
               <div key={index} className="flex flex-col justify-center items-center">
-                <div className="w-[85%] flex items-center justify-center h-[7.5rem] shadow-[rgba(0,0,0,0.05)_0px_0px_0px_1px] rounded-md" >
+                <div className="w-28 flex items-center justify-center h-[7.5rem] shadow-[rgba(0,0,0,0.05)_0px_0px_0px_1px] rounded-md" >
                   <Image
                     src={res.profileimages}
                     width={24}
@@ -38,7 +38,7 @@ const suggestion = () => {
         </div>
 
       </div>
-      
+
     </>
   )
 }
