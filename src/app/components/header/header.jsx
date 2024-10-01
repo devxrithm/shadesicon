@@ -17,7 +17,7 @@ const header = () => {
     setCopy(true)
     setTimeout(() => {
       setCopy(false)
-    }, 1000)
+    }, 2000)
 
   } 
 
