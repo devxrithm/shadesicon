@@ -9,7 +9,8 @@ const header = () => {
 
   const clickHandler = () => {
 
-    navigator.clipboard.writeText("npm i shadesicon").then(() => {
+    navigator.clipboard.writeText("npm i shadesicon")
+    .then(() => {
       console.log("copy Successfull")
     }), (err) => {
       console.log("error")
