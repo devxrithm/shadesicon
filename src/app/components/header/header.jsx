@@ -19,7 +19,7 @@ const header = () => {
       setCopy(false)
     }, 1000)
 
-  }
+  } 
 
 
   return (
