@@ -9,7 +9,7 @@ import Filter from "../components/filter/page"
 
 
 
-const page = () => {
+const Outline = () => {
 
   const [search, setSearch] = useState('');
   
