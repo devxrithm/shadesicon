@@ -57,11 +57,11 @@ const navbar = () => {
             <hr className='mt-5 mx-5' />
             <div className={popup ? "" : "hidden"}>
                 <ul className='flex gap-3 flex-col items-center py-5' onClick={ClosePopMenuHandler}>
-                    <Link href="/">  <li className='bg-gray-200 w-48 text-center py-3 rounded-sm font-semibold'>Home</li></Link>
-                    <Link href="/outline"> <li className='bg-gray-200 w-48 text-center py-3 rounded-sm font-semibold'>Icons</li></Link>
-                    <li className='bg-gray-200 w-48 text-center py-3 rounded-sm font-semibold'>Animated Icons</li>
-                    <li className='bg-gray-200 w-48 text-center py-3 rounded-sm font-semibold'>Contact</li>
-                    <li className='bg-gray-200 w-48 text-center py-3 rounded-sm font-semibold'>Blog</li>
+                    <Link href="/">  <li className='bg-gray-100 w-80 text-center py-3 rounded-md font-semibold'>Home</li></Link>
+                    <Link href="/outline"> <li className='bg-gray-100 w-80 text-center py-3 rounded-md font-semibold'>Icons</li></Link>
+                    <li className='bg-gray-100 w-80 text-center py-3 rounded-md font-semibold'>Animated Icons</li>
+                    <li className='bg-gray-100 w-80 text-center py-3 rounded-md font-semibold'>Contact</li>
+                    <li className='bg-gray-100 w-80 text-center py-3 rounded-md font-semibold'>Blog</li>
                 </ul>
             </div>
 

@@ -1,6 +1,6 @@
 "use client"
 
-import React from 'react'
+import React, { useState } from 'react'
 import data from "../utils/datas.json"
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { vs2015 } from "react-syntax-highlighter/dist/esm/styles/hljs";
@@ -10,6 +10,7 @@ import Suggestion from '../../components/suggestion/suggestion';
 
 
 const page = ({ params }) => {
+  const [CopySuccess, setCopySuccess] = useState()
 
   const id = params.query;
 
@@ -32,7 +33,7 @@ const page = ({ params }) => {
 
   const copyToClipboard = async () => {
     try {
-      await navigator.clipboard.writeText(svgCode); // Copy SVG code to the clipboard
+      await navigator.clipboard.writeText(fileData.syntax); // Copy SVG code to the clipboard
       setCopySuccess('SVG copied to clipboard!');
     } catch (err) {
       setCopySuccess('Failed to copy!');
@@ -44,10 +45,10 @@ const page = ({ params }) => {
   return (
     <>
 
-      <div className="shadow-[rgba(99,99,99,0.2)_0px_2px_8px_0px] bg-white lg:flex items-center justify-center mt-[3rem] border lg:mx-80 flex-col lg:flex-row
+      <div className="shadow-[rgba(99,99,99,0.2)_0px_2px_8px_0px] bg-white lg:flex items-center justify-center mt-[3rem] lg:mx-80 flex-col lg:flex-row
        lg:p-10 p-5 rounded-lg gap-10 mx-5 ">
-        <div className='lg:w-60 mx-5'>
-          <div className='border rounded-lg flex justify-center p-11 h-52 lg:h-40'>
+        <div className='flex items-center flex-col '>
+          <div className='border rounded-lg flex justify-center lg:w-40 w-52 h-52 lg:h-40'>
             <Image
               src={fileData.profileimages}
               width={60}
@@ -66,20 +67,21 @@ const page = ({ params }) => {
           </SyntaxHighlighter> */}
 
 
-          <div className='flex flex-col gap-3 mb-2 mt-3 items-center justify-center'>
-            <div className='border border-black shadow-[rgba(99,99,99,0.2)_0px_2px_8px_0px] text-black font-bold  py-3 lg:w-[23rem] lg:px-16 w-72 rounded-md text-center cursor-pointer hover:scale-95 bg-slate-100'>
+
+          <div className="flex gap-3 flex-wrap items-center mt-5 justify-center lg:justify-normal">
+
+            <div className='border border-black shadow-[rgba(99,99,99,0.2)_0px_2px_8px_0px] text-black font-bold  py-3 lg:w-[11rem] lg:px-11 w-72 rounded-md text-center cursor-pointer hover:scale-95 bg-slate-100'>
               <p>Copy JSX</p>
             </div>
 
-            <div className="flex gap-4">
-              <div className='border border-black shadow-[rgba(99,99,99,0.2)_0px_2px_8px_0px] text-black font-bold lg:w-44 w-32 py-3 rounded-md text-center hover:scale-95'>
-                <p>Copy SVG</p>
-              </div>
-
-              <button onClick={downloadRemoteImage}>
-                <div className='border-5 shadow-[rgba(99,99,99,0.2)_0px_2px_8px_0px] bg-[#000000] text-white font-semibold lg:w-44 w-36 py-3 rounded-md hover:scale-95'><p>Download SVG</p></div>
-              </button>
+            <button onClick={copyToClipboard}> <div className='border border-black shadow-[rgba(99,99,99,0.2)_0px_2px_8px_0px] text-black font-bold lg:w-44 w-32 py-3 rounded-md text-center hover:scale-95'>
+              <p>Copy SVG</p>
             </div>
+            </button>
+
+            <button onClick={downloadRemoteImage}>
+              <div className='border-5 shadow-[rgba(99,99,99,0.2)_0px_2px_8px_0px] bg-[#000000] text-white font-semibold lg:w-44 w-36 py-3 rounded-md hover:scale-95'><p>Download SVG</p></div>
+            </button>
 
           </div>
           <hr className='mt-3' />
@@ -91,19 +93,21 @@ const page = ({ params }) => {
 
           {/* <hr /> */}
           <div className='mt-3 '>
-            <div className="flex items-center justify-between gap-3">
-              <Image
-                src="https://www.aceternity.com/_next/image?url=%2Flogo.png&w=128&q=75"
-                alt="Picture of the author"
-                width={50}
-                height={50}
-              />
+            <div className="flex items-center justify-around">
+              <div className='hidden lg:block'>
+                <Image
+                  src="https://www.aceternity.com/_next/image?url=%2Flogo.png&w=128&q=75"
+                  alt="Picture of the author"
+                  width={40}
+                  height={40}
+                />
+              </div>
               <div className='text-gray-700 font-semibold'>
                 <h2>ShadesIcon</h2>
                 <p className='text-sm text-wrap '>Explore 1000 + Icons For Free</p>
               </div>
               <Link href="#">
-                <div className='border border-black rounded-lg w-20 text-center py-2'>
+                <div className='border border-black rounded-lg w-24 text-center py-1'>
                   Follow ↗
                 </div>
               </Link>
@@ -118,3 +122,4 @@ const page = ({ params }) => {
 }
 
 export default page
+
