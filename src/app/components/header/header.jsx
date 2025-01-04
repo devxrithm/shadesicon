@@ -4,7 +4,7 @@ import { IoCopyOutline } from "react-icons/io5";
 import { LuCopyCheck } from "react-icons/lu";
 import Image from 'next/image';
 
-const header = () => {
+const Header = () => {
   const [copy, setCopy] = useState(false)
 
   const clickHandler = () => {

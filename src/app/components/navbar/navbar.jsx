@@ -7,7 +7,7 @@ import { IoMenu } from "react-icons/io5";
 import { RxCross2 } from "react-icons/rx";
 
 
-const navbar = () => {
+const Navbar = () => {
     const [popup, setPopup] = useState()
     const [clicked, setclicked] = useState(true)
 
