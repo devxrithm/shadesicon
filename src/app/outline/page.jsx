@@ -48,8 +48,8 @@ const page = () => {
           {data.filter((res) => {
             return search.toLowerCase() === '' ? res : res.name.toLowerCase().includes(search.toLowerCase());
           }).map((res, index) => (
-            <Link href={`/outline/${res.slug}`}>
-              <div key={index} className="flex flex-col justify-center items-center">
+            <Link href={`/outline/${res.slug}`} key={index}>
+              <div  className="flex flex-col justify-center items-center">
                 <div className="w-28 flex items-center justify-center h-[7.5rem] shadow-[rgba(0,0,0,0.05)_0px_0px_0px_1px] rounded-md" >
                   <Image
                     src={res.profileimages}
