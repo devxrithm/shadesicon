@@ -7,7 +7,7 @@ import Searchbox from '../components/searchBox/searchbox';
 import Filter from "../components/filter/page"
 
 
-const page = () => {
+const Outline = () => {
 
   const [search, setSearch] = useState('');
   
@@ -70,4 +70,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Outline

@@ -9,7 +9,7 @@ import Link from 'next/link';
 import Suggestion from '../../components/suggestion/suggestion';
 
 
-const page = ({ params }) => {
+const Query = ({ params }) => {
   const [CopySuccess, setCopySuccess] = useState()
 
   const id = params.query;
@@ -121,5 +121,5 @@ const page = ({ params }) => {
   )
 }
 
-export default page
+export default Query
 
